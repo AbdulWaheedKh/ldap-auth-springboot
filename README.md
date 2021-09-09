@@ -11,6 +11,12 @@
 - Gourab Sarkar
 	- username: `gourab`
 	- password: `gourab123`
+
+---
+	
+**Secure URL:** [http://localhost:8080/secure/resource/v1/userGroup](http://localhost:8080/secure/resource/v1/userGroup)
+
+Supports basic authentication as well as form based login for LDAP. To logout, hit the `/logout` endpoint.
 	
 For more details, visit [https://spring.io/guides/gs/authenticating-ldap/](https://spring.io/guides/gs/authenticating-ldap/).
 
