@@ -38,23 +38,41 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		<!-- spring dependency that works with LDAP -->
 		<dependency>
 			<groupId>org.springframework.ldap</groupId>
 			<artifactId>spring-ldap-core</artifactId>
 		</dependency>
+		<!-- spring security dependency that works with LDAP -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-ldap</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.unboundid</groupId>
-			<artifactId>unboundid-ldapsdk</artifactId>
-		</dependency>
+<!--		create a local instance of LDAP -->
+<!--		<dependency>-->
+<!--			<groupId>com.unboundid</groupId>-->
+<!--			<artifactId>unboundid-ldapsdk</artifactId>-->
+<!--		</dependency>-->
+
+
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.directory.api/api-util &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.directory.api</groupId>-->
+<!--			<artifactId>api-util</artifactId>-->
+<!--			<version>2.1.5</version>-->
+<!--		</dependency>-->
+
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<version>2.5.3</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
