@@ -39,10 +39,10 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<!-- spring dependency that works with LDAP -->
-		<dependency>
-			<groupId>org.springframework.ldap</groupId>
-			<artifactId>spring-ldap-core</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.ldap</groupId>-->
+<!--			<artifactId>spring-ldap-core</artifactId>-->
+<!--		</dependency>-->
 		<!-- spring security dependency that works with LDAP -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
